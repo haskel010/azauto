@@ -1,0 +1,9 @@
+export const AZURE_TENANT_ID = "1c250f1a-d71c-463e-938d-ef25a49b13a2";
+export const AZURE_CLIENT_ID = "c85027d8-60a1-45a0-932b-054a513313de";
+export const AZURE_CLIENT_SECRET = "Tib8Q~aLLe7NNdMRJsb~OoSjxNYMWanq1bM.ra60";
+export const AZURE_SUBSCRIPTION_ID = "3b1096ee-6d90-4afa-967e-df93e874ee7b";
+export const AZURE_RESOURCE_GROUP = "kokolaner";
+export const LINKTABLE = "windows2";
+export const NAMETABLE = "window2_names";
+export const SUPABASE_URL = "https://gqxjhftrvdioloqauflj.supabase.co";
+export const SUPABASE_SERVICE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdxeGpoZnRydmRpb2xvcWF1ZmxqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczODA4Njg2OCwiZXhwIjoyMDUzNjYyODY4fQ.o61MqMk-9IRddSQqRAzhaQnujcj7GZb1PqPszR8kZZQ";
