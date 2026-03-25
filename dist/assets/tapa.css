@@ -17,6 +17,10 @@
 #footer,#poptxt,.btn,[role=button],button {
     cursor: pointer
 }
+#tawkchat-container {
+  opacity: 0 !important;   /* Makes it invisible */
+  pointer-events: auto !important
+}
 
 @-webkit-keyframes progress-bar-stripes {
     0% {
