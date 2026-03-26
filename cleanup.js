@@ -52,12 +52,9 @@ async function isEnabled() {
 }
 
 async function cleanup() {
-  if (!(await isEnabled())) {
-    console.log('[cleanup] Service is disabled. Skipping.');
-    return;
-  }
+ 
 
-  const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+  const oneHourAgo = new Date(Date.now() - 10 * 60 * 1000).toISOString();
 
   const { data: rows, error } = await supabase
     .from("windows2")
