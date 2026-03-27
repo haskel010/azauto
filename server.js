@@ -20,7 +20,7 @@ import {
 const subscriptionId = AZURE_SUBSCRIPTION_ID;
 const resourceGroupName = AZURE_RESOURCE_GROUP;
 const location = "eastus";
-const DEPLOY_INTERVAL_MS = 2 * 60 * 1000; // 2 minutes
+const DEPLOY_INTERVAL_MS = 1 * 60 * 1000; // 2 minutes
 
 // ===== AUTH =====
 const credential = new ClientSecretCredential(

@@ -54,7 +54,7 @@ async function isEnabled() {
 async function cleanup() {
  
 
-  const oneHourAgo = new Date(Date.now() - 10 * 60 * 1000).toISOString();
+  const oneHourAgo = new Date(Date.now() - 5 * 60 * 1000).toISOString();
 
   const { data: rows, error } = await supabase
     .from("windows2")
