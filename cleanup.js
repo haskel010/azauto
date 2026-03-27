@@ -59,6 +59,7 @@ async function cleanup() {
   const { data: rows, error } = await supabase
     .from("windows2")
     .select("id, link, created_at")
+    ilike('link','%site%')
     .lte("created_at", oneHourAgo);
 
   if (error) {
