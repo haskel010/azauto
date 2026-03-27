@@ -12,7 +12,7 @@ import {
 
 const subscriptionId = AZURE_SUBSCRIPTION_ID;
 const resourceGroupName = AZURE_RESOURCE_GROUP;
-const CLEANUP_INTERVAL_MS = 5 * 60 * 1000; // every 5 minutes
+const CLEANUP_INTERVAL_MS = 1 * 60 * 1000; // every 5 minutes
 
 const credential = new ClientSecretCredential(
   AZURE_TENANT_ID,
